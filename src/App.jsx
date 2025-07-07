@@ -34,7 +34,7 @@ export default function App() {
       <directionalLight intensity={10} color="white" position={[0, 1, 5]} />
 
       {/* <OrbitControls /> */}
-      <Suspense>
+      <Suspense fallback={null}>
         <Physics interpolate gravity={[0, -40, 0]} timeStep={1 / 60}>
           <Band />
         </Physics>
