@@ -23,7 +23,7 @@ import { MeshLineGeometry, MeshLineMaterial } from 'meshline'
 
 extend({ MeshLineGeometry, MeshLineMaterial })
 
-useGLTF.preload('./cardtestglb.glb')
+useGLTF('/cardtestglb.glb')
 
 export default function App() {
 
